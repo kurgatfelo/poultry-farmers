@@ -46,6 +46,7 @@
 .diseases-symp-prev {
     display: flex;
     margin: 3rem;
+    height: 80vh;
 }
 .diseases {
     width: 30%;
@@ -60,14 +61,23 @@
     text-align: center;
     font-weight: bold;
     padding: 1rem;
+    
+}
+.diseases-symp-prev > div > p{
+    line-height: 2rem;
+    
 }
 .diseases-symp-prev p {
     padding: .5rem;
     text-align: center;
+    line-height: 1rem;
 
 }
 .diseases-symp-prev p span {
     display: block;
+    
+    
+    
 }
 
 
