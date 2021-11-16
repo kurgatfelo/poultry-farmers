@@ -75,8 +75,13 @@
 }
 .diseases-symp-prev p span {
     display: block;
-    
-    
+}
+.button button {
+    height: 3rem;
+    width: 10rem;
+    background-color: green;
+    border: 1px;
+    margin-left: 3rem;
     
 }
 
