@@ -19,6 +19,13 @@ padding: 50px;
     display: flex;
     justify-content: space-between;
 }
+.principles h1{
+    text-align: center;
+}
+.disease{
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
 .disease img{
     width: 50vh;
     height: 50vh;
