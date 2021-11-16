@@ -1,8 +1,17 @@
+.header{
+    background-color: #c4c4c4;
+}
 .header h1{
 text-align: center;
+padding: 50px;
 }
 .header p{
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+.header img{
+    margin-top: 100px;
+    max-width: 100%;
+    
 }
