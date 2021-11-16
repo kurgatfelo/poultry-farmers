@@ -48,3 +48,10 @@ padding: 50px;
     text-align: center;
     font-size: 30px;
 }
+.doctor{
+    background-color: #49C628;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
