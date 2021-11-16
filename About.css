@@ -35,3 +35,7 @@ padding: 50px;
     width: 50vh;
     height: 50vh;
 }
+.management h1{
+    text-align: center;
+    color: #DF6C19;
+}
