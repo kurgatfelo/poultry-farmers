@@ -29,6 +29,25 @@ nav{
     color: #49C628;
     font-size: 25px;
 }
+#poultry ul{
+    display: flex;
+    align-items: stretch; 
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+#poultry ul li{
+    list-style-type: none;
+    display: block;
+    flex: 0 1 auto;  
+    background-color: #49C628;
+    padding: 15px 30px;
+    border-radius: 0px 0px 0px 100px;
+    
+
+    
+}
 .header{
     background-color: #c4c4c4;
 }
