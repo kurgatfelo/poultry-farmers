@@ -55,3 +55,7 @@ padding: 50px;
     font-style: italic;
     text-align: center;
 }
+#support{
+    display: flex;
+    justify-content: space-between;
+}
