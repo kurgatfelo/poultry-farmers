@@ -2,7 +2,7 @@
     margin-left: 10%;
     position: absolute;
     top: 5%;
-    color: greenyellow;
+    color: #70E838;
     font-weight: 800;
 
 }
@@ -35,12 +35,13 @@
     top: 5%;
     height: 40px;
     width: 150px;
+    background-color: #DF6C19;
 }
 .secondNav{
     margin-left: 20%;
     top:5%;
-    padding-bottom: 30px; 
-
+    padding-bottom: 50px; 
+    
 }
 .CHICKEN{
     margin-right:12%;
@@ -49,6 +50,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 0px 0px 0px 40px;
+    background-color: #70E838;
 }
 .ducks{
     margin-right:10%;
@@ -57,6 +59,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 0px 0px 0px 40px;
+    background-color: #70E838;
 }
 .turkey{
     margin-right: 12%; 
@@ -64,7 +67,8 @@
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    border-radius: 0px 0px 0px 40px;  
+    border-radius: 0px 0px 0px 40px;
+    background-color: #70E838; 
 }
 .others{
     padding-right:4%;
@@ -72,5 +76,5 @@
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 0px 0px 0px 40px;
-    background-color: ;
+    background-color: #70E838;
 }
