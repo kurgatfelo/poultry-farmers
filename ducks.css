@@ -43,3 +43,15 @@
     width: 750px;
 
 }
+.diseases-symp-prev {
+    display: flex;
+}
+.diseases {
+    width: 30%;
+}
+.symptoms {
+    width: 30%;
+}
+.prevention {
+    width: 30%;
+}
