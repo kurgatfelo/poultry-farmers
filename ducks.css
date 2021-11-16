@@ -1,0 +1,45 @@
+*
+{
+    font-style: normal;
+    font-size: medium;
+}
+/* section about */
+
+
+.about {
+    display: flex;
+    height: 80vh;
+    background-color:  green;
+    border-radius: 20px;
+    
+}
+.about .about-text {
+    width: 50%;
+
+}
+.about .about-text h1 {
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 3rem;
+
+}
+.about .about-text p {
+    line-height: 2rem;
+}
+.about .about-text p span {
+    display: block;
+    text-align: center;
+    
+}
+.about .image {
+    width: 50%;
+    
+
+}
+.about .image img {
+    height: 600px;
+    width: 750px;
+
+}
