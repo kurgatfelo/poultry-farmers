@@ -266,7 +266,11 @@ padding-top: 4%;
     font-size: 20px;
     font-family:serif;
     font-weight: bolder;
-    background-color: #70E838;
+    background-color: #DF6C19;
+    margin-left: 28%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 4%;
 }
 .coci{
     font-size: 23px;
@@ -277,7 +281,7 @@ padding-top: 4%;
 }
 .colOne{
     margin-top: 4%;
-    margin-left: 44%;
+    margin-left: 27%;
     font-size: 23px;
     border:1px solid black ; 
     border-radius: 20px 20px 20px 20px;
@@ -299,7 +303,7 @@ padding-top: 4%;
 }
 .colTwo{
     margin-top: 4%;
-    margin-left: 45%;
+    margin-left: 28%;
     font-size: 23px; 
     border:1px solid black ; 
     border-radius: 20px 20px 20px 20px;
@@ -314,7 +318,7 @@ padding-top: 4%;
 }
 .colThree{
     margin-top: 4%;
-    margin-left: 46%;
+    margin-left: 29%;
     font-size: 23px; 
     border:1px solid black ; 
     border-radius: 20px 20px 20px 20px;
@@ -322,4 +326,31 @@ padding-top: 4%;
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
+}
+.firstPic{
+    margin-left: 15%;
+}
+.secondPic{
+    margin-left: 15%; 
+}
+.thirdPic{
+    margin-left: 15%;
+}
+.fourthSection{
+    background-color: #E5E5E5;
+}
+.fifthSection{
+    display: flex;
+}
+.copy{
+    padding-right: 20%;
+    padding-left: 8%;
+    font-weight: bolder;
+}
+.design{
+    padding-left:25%;
+    font-weight: bolder;
+}
+.fb,.yt,.tw,.ig,.in{
+    padding-top: 1%;
 }
