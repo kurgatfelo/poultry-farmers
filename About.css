@@ -1,3 +1,19 @@
+nav{
+    display: flex;
+}
+.logo{
+    
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:inline-block;
+
+}
+.logo-one img{
+    height: 10vh;
+    width: 10vh;
+}
 .header{
     background-color: #c4c4c4;
 }
