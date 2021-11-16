@@ -1,0 +1,76 @@
+.pha{
+    margin-left: 10%;
+    position: absolute;
+    top: 5%;
+    color: greenyellow;
+    font-weight: 800;
+
+}
+.navSection>nav{
+    margin-right: 50px;
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.navSection>nav>a{
+    justify-content: space-between;
+    font-weight: 800;
+    color: black;
+    padding: 50px;
+    text-decoration: none;
+}
+.glass{
+    margin-left: 72%;
+    margin-bottom: 23px;
+    position: absolute;
+    top: 6%;
+    
+}
+.login{
+    margin-left: 85%;
+    margin-bottom: 23px;
+    position: absolute;
+    top: 5%;
+    height: 40px;
+    width: 150px;
+}
+.secondNav{
+    margin-left: 20%;
+    top:5%;
+    padding-bottom: 30px; 
+
+}
+.CHICKEN{
+    margin-right:12%;
+    padding-right:4%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0px 0px 0px 40px;
+}
+.ducks{
+    margin-right:10%;
+    padding-right:4%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0px 0px 0px 40px;
+}
+.turkey{
+    margin-right: 12%; 
+    padding-right:4%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0px 0px 0px 40px;  
+}
+.others{
+    padding-right:4%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0px 0px 0px 40px;
+    background-color: ;
+}
