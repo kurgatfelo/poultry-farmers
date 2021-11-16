@@ -67,3 +67,9 @@ padding: 50px;
     height: 50vh;
     width: 50vh;
 }
+.supportone p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
