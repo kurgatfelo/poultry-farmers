@@ -108,7 +108,13 @@ display: flex;
 .weight{
     margin-top: 5%;
     position: absolute;
-    right: 70%;
-    
-
+    right: 73.5%;
+}
+.food{
+    margin-left: 15%;
+}
+.starter{
+    position: absolute;
+    margin-left: 42.5%;
+    margin-top:3%;
 }
