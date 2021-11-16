@@ -1,18 +1,25 @@
 nav{
     display: flex;
 }
-.logo{
-    
-}
 .logo-one ul li {
 
     list-style-type: none;
     display:inline-block;
-
+    padding: 50px;
+   
+}
+.logo-one ul li a{
+    text-decoration: none;
+    
 }
 .logo-one img{
-    height: 10vh;
-    width: 10vh;
+    height: 8vh;
+    width: 8vh;
+}
+.logo-text{
+    position: relative; bottom: 100px;
+    color: #49C628;
+    font-size: 25px;
 }
 .header{
     background-color: #c4c4c4;
@@ -92,12 +99,12 @@ padding: 50px;
     font-style: italic;
 }
 button{
-    display: block;
+    /* display: block;
     margin: 0 auto;
     margin-top: 100px;
     color: white;
     padding: 18px 20px;
     background-color: #49C628;
     border: transparent;
-    font-size: 20px;
+    font-size: 20px; */
 }
