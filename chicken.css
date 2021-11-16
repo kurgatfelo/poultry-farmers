@@ -78,3 +78,37 @@
     border-radius: 0px 0px 0px 40px;
     background-color: #70E838;
 }
+.secondSection{
+    display: flex;
+    background-color: #E5E5E5;
+}
+.info{
+    margin-left: 12%;
+    font-family: ropa sans-serif;
+    font-size: 20px;
+}
+.chic{
+    font-weight: 800;
+}
+.thirdsection{
+display: flex;
+}
+.coccidiosis{
+    display: flex;
+}
+.ruffled{
+    margin-left: 15%;
+    
+}
+.loose{
+    margin-top: 3%;
+    left: 21%;
+    position: absolute;
+}
+.weight{
+    margin-top: 5%;
+    position: absolute;
+    right: 70%;
+    
+
+}
