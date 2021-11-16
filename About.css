@@ -31,7 +31,7 @@ padding: 50px;
 }
 .disease{
     background-color: #c4c4c4;
-    border-radius: 20px;
+    border-radius: 13px;
 }
 .disease img{
     width: 50vh;
@@ -58,4 +58,12 @@ padding: 50px;
 #support{
     display: flex;
     justify-content: space-between;
+    background-color: #c4c4c4;
+}
+.supportone{
+    margin-top: 100px;
+}
+.supportone img{
+    height: 50vh;
+    width: 50vh;
 }
