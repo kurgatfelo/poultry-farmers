@@ -45,6 +45,7 @@
 }
 .diseases-symp-prev {
     display: flex;
+    margin: 3rem;
 }
 .diseases {
     width: 30%;
@@ -55,3 +56,15 @@
 .prevention {
     width: 30%;
 }
+.diseases-symp-prev h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}
+.diseases-symp-prev p {
+    padding: .5rem;
+    text-align: center;
+    
+}
+
+
