@@ -81,6 +81,7 @@
 .secondSection{
     display: flex;
     background-color: #E5E5E5;
+    margin-bottom:5%;
 }
 .info{
     margin-left: 12%;
@@ -93,6 +94,16 @@
 .thirdsection{
 display: flex;
 }
+.iconOne{
+   position: absolute;
+    bottom: 3%;
+}
+.{
+    
+}
+.guide{
+    margin-left:8%;
+}
 .coccidiosis{
     display: flex;
 }
@@ -102,19 +113,98 @@ display: flex;
 }
 .loose{
     margin-top: 3%;
-    left: 21%;
+    left: 23%;
     position: absolute;
 }
 .weight{
     margin-top: 5%;
     position: absolute;
-    right: 73.5%;
+    right: 71.5%;
 }
 .food{
     margin-left: 15%;
 }
 .starter{
     position: absolute;
-    margin-left: 42.5%;
+    margin-left: 44.5%;
     margin-top:3%;
+}
+.one{
+    padding-right: 2%;
+}
+.vaccine{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.newcastle{
+    display: flex;
+    padding-top: 7%;
+
+}
+.two{
+    padding-right: 2%;
+}
+.new{
+    padding-right: 12%;
+}
+.murky{
+    margin-top: 3%;
+    left: 23%;
+    position: absolute;
+}
+.nasal{
+    margin-top: 5%;
+    position: absolute;
+    right: 70%;
+}
+.practice{
+    padding-left: 13%;
+}
+.flock{
+    margin-top: 3%;
+    left: 45.5%;
+    position: absolute;
+}
+.marek{
+    padding-top: 5%;
+    display: flex;
+}
+.three{
+    padding-right: 2%;
+}
+.mareks{
+    padding-right: 13%;
+}
+.pupil{
+    margin-top: 3%;
+    left: 23%;
+    position: absolute;
+}
+.tumors{
+    margin-top: 5%;
+    position: absolute;
+    right: 67%;
+}
+.vaccinated{
+    padding-left: 16%;
+}
+.fowl{
+    padding-top: 5%;
+    display: flex;
+    padding-bottom: 4%;
+}
+.pox{
+    padding-right: 13%;
+}
+.areas{
+    padding-left: 3%;
+}
+.eye{
+    margin-top: 3%;
+    left: 23%;
+    position: absolute;
+}
+.vaccinate{
+    padding-left: 16%;   
 }
