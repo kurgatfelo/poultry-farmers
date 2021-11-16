@@ -47,6 +47,7 @@ padding: 50px;
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 .doctor{
     background-color: #49C628;
@@ -54,14 +55,15 @@ padding: 50px;
     color: white;
     font-style: italic;
     text-align: center;
+    padding: 5px;
 }
 #support{
     display: flex;
     justify-content: space-between;
-    background-color: #c4c4c4;
 }
 .supportone{
     margin-top: 100px;
+    background-color: #c4c4c4;
 }
 .supportone img{
     height: 50vh;
