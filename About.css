@@ -1,3 +1,8 @@
+
+html{
+    margin:0 auto;
+    padding: 0 auto;
+}
 nav{
     display: flex;
 }
@@ -6,6 +11,9 @@ nav{
     list-style-type: none;
     display:inline-block;
     padding: 50px;
+    margin: 0 auto;
+    position: relative; bottom: 80px;
+
    
 }
 .logo-one ul li a{
@@ -99,12 +107,12 @@ padding: 50px;
     font-style: italic;
 }
 button{
-    /* display: block;
+    display: block;
     margin: 0 auto;
     margin-top: 100px;
     color: white;
     padding: 18px 20px;
-    background-color: #49C628;
+    background-color: #DF6C19;
     border: transparent;
-    font-size: 20px; */
+    font-size: 20px; 
 }
