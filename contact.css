@@ -79,13 +79,13 @@
     background-color: #70E838;
 }
 .love{
-    font-size: 40px;
-    margin-left: 5%;
+    font-size: 48px;
+    margin-left: 8%;
     font-family: 'Rye';
 }
 .hear{
-    font-size: 40px;
-    margin-left: 7%;
+    font-size: 45px;
+    margin-left: 10%;
     font-family: 'Rye';
 }
 .footer{
@@ -103,6 +103,9 @@
 .copy{
     margin-left: 2%;
     font-family: 'Roboto';
+}
+.design{
+    font-family: 'Roboto'; 
 }
 .fb,.yt,.tw,.ig,.in{
   margin-top: 1%;
