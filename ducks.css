@@ -89,4 +89,7 @@
     text-align: center;
     color: orange;
 }
+.sick-images {
+    display: flex;
+}
 
