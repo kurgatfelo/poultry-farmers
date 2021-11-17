@@ -81,10 +81,12 @@
 .love{
     font-size: 40px;
     margin-left: 5%;
+    font-family: 'Rye';
 }
 .hear{
     font-size: 40px;
     margin-left: 7%;
+    font-family: 'Rye';
 }
 .footer{
     display: flex;
@@ -95,7 +97,9 @@
 .in{
     margin-right: 3%;
 }
-
+.run{
+    margin-left: 2%;
+}
 .copy{
     margin-left: 2%;
 }
