@@ -90,8 +90,15 @@
     display: flex;
 }
 .fb{
-    margin-left: 2%;
+    margin-left: 3%;
 }
 .in{
-    margin-right: 2%;
+    margin-right: 3%;
+}
+
+.copy{
+    margin-left: 2%;
+}
+.fb,.yt,.tw,.ig,.in{
+  margin-top: 1%;
 }
