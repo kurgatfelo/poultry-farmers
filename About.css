@@ -170,6 +170,7 @@ padding: 50px;
 }
 #close{
     display: flex;
+    justify-content: space-around;
 }
 #close .info img{
     height: 6vh;
@@ -177,6 +178,13 @@ padding: 50px;
 }
 #close .info{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#92E06A;
 }
 
