@@ -171,4 +171,12 @@ padding: 50px;
 #close{
     display: flex;
 }
+#close .info img{
+    height: 6vh;
+    width: 6vh;
+}
+#close .info{
+    display: flex;
+    flex-direction: column;
+}
 
