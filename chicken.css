@@ -6,7 +6,11 @@
     font-weight: 800;
 
 }
-
+.firstSection{
+    background-color: white;
+    position: fixed;
+    padding-right: 90%;
+}
 .navSection>nav{
     margin-right: 50px;
     position: absolute;
@@ -39,13 +43,14 @@
     background-color: #DF6C19;
 }
 .secondNav{
-    margin-left: 20%;
-    top:5%;
-    padding-bottom: 50px; 
-    
+    padding-left: 115%;
+    top:1%;
+    padding-bottom: 4px; 
+    display: flex;
+    padding-top:;
 }
 .CHICKEN{
-    margin-right:12%;
+    margin-left:12%;
     padding-right:4%;
     padding-left: 2%;
     padding-top: 1%;
@@ -72,7 +77,7 @@
     background-color: #70E838; 
 }
 .others{
-    padding-right:4%;
+    margin-right:6%;
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
