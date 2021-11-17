@@ -91,5 +91,26 @@
 }
 .sick-images {
     display: flex;
+    height: 10vh;
 }
-
+.img-sick {
+    width: 50%;
+}
+.img-sick img {
+    height: 500px;
+    width: 500px;
+}
+.sick text {
+    width: 50%;
+}
+.sick-text h2 {
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.sick-text p {
+    text-align: center;
+}
+.sick-text p span{
+    display: block;   
+}
