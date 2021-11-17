@@ -1,32 +1,46 @@
-
 html{
     margin:0 auto;
     padding: 0 auto;
 }
 nav{
     display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width:100%;
+    margin: 0;
+
 }
 .logo-one ul li {
 
     list-style-type: none;
-    display:inline-block;
-    padding: 50px;
-    margin: 0 auto;
-    position: relative; bottom: 80px;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
 
-   
 }
 .logo-one ul li a{
     text-decoration: none;
     
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
 }
-.logo-one img{
-    height: 8vh;
-    width: 8vh;
+.logo img{
+    height: 20vh;
+    width: 20vh;
 }
 .logo-text{
-    position: relative; bottom: 100px;
-    color: #49C628;
+    position: relative; bottom: 80px;
+    color:#DF6C19;
     font-size: 25px;
 }
 #poultry ul{
@@ -36,16 +50,16 @@ nav{
     width: 80%;
     margin: 0;
     padding: 0;
+    float: right;
+
 }
 #poultry ul li{
     list-style-type: none;
     display: block;
     flex: 0 1 auto;  
-    background-color: #49C628;
+    background-color: #92E06A;
     padding: 15px 30px;
-    border-radius: 0px 0px 0px 100px;
-    
-
+    border-radius: 0px 0px 0px 100px; 
     
 }
 .header{
@@ -100,7 +114,7 @@ padding: 50px;
     margin-bottom: 40px;
 }
 .doctor{
-    background-color: #49C628;
+    background-color: #92E06A;
     font-size: 40px;
     color: white;
     font-style: italic;
@@ -125,7 +139,7 @@ padding: 50px;
     font-size: 20px;
     font-style: italic;
 }
-button{
+.offer{
     display: block;
     margin: 0 auto;
     margin-top: 100px;
@@ -134,4 +148,24 @@ button{
     background-color: #DF6C19;
     border: transparent;
     font-size: 20px; 
+} 
+#footer{
+    text-align: center;
+    background-image:url(./images/signup-removebg-preview.png
+    );
+    color:#DF6C19;
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #92E06A;
 }
+#footer .container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.container input {
+    padding: 20px;
+    margin:0 auto;
+}
+
