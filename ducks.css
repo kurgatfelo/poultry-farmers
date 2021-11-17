@@ -85,6 +85,10 @@
     
 }
 /* sick ducks */
+.sickling {
+    background-color: green;
+    height: 80vh;
+}
 .sick-ducks h1 {
     text-align: center;
     color: orange;
@@ -97,11 +101,12 @@
     width: 50%;
 }
 .img-sick img {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 }
 .sick text {
     width: 50%;
+    align-items: center;
 }
 .sick-text h2 {
     text-align: center;
