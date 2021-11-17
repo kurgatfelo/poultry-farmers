@@ -114,3 +114,10 @@
     background-color: #70E838;
     width: 50%;
 }
+.contacts{
+    margin-left: 56%;
+    position: absolute;
+    top:38%;
+    font-family: 'Nobile';
+    font-size: 35px;
+}
