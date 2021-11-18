@@ -124,3 +124,30 @@
     height: 400px;
     width: 400px;
 }
+#footer .container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.container input {
+    padding: 20px;
+    margin:0 auto;
+}
+#close{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+}
+#close .info img{
+    height: 6vh;
+    width: 6vh;
+}
+#close .info{
+    display: flex;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
