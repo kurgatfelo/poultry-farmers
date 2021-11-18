@@ -9,10 +9,8 @@ nav{
 }
 .logo-one ul{
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    width:100%;
-    margin: 0;
+    position: absolute;
+    right: 3%;
 
 }
 .logo-one ul li {
@@ -39,35 +37,29 @@ nav{
     width: 20vh;
 }
 .logo-text{
-    position: relative; bottom: 80px;
     color:#DF6C19;
     font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
 }
-#poultry ul{
-    display: flex;
-    align-items: stretch; 
-    justify-content: space-evenly;
-    width: 80%;
-    margin: 0;
-    padding: 0;
-    float: right;
 
+#poultry ul{
+  display: flex; 
+  justify-content: space-around; 
+  
 }
 #poultry ul li{
     list-style-type: none;
-    display: block;
-    flex: 0 1 auto;  
-    background-color: #92E06A;
-    padding: 15px 30px;
-    border-radius: 0px 0px 0px 100px; 
-    
 }
 .header{
     background-color: #c4c4c4;
 }
 .header h1{
+    color: #92E06A;
 text-align: center;
 padding: 50px;
+text-shadow:4px 5px 2px #DF6C19;
+font-size: 55px;
 }
 .header p{
     max-width: 70%;
@@ -171,6 +163,7 @@ padding: 50px;
 #close{
     display: flex;
     justify-content: space-around;
+    background-color: #c4c4c4;
 }
 #close .info img{
     height: 6vh;
@@ -185,6 +178,6 @@ padding: 50px;
     justify-content: space-around;
     font-weight: bold;
     padding: 20px;
-    background-color:#92E06A;
+    background-color:#c4c4c4;
 }
 

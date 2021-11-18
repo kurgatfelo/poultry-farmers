@@ -25,12 +25,13 @@
     </nav>
     <div id= "poultry">
         <ul>
-            <li>CHICKEN</li>
-            <li>DUCKS</li>
-            <li>TURKEY</li>
-            <li>OTHERS</li>
+            <li><a href= "index.html">CHICKEN</a></li>
+            <li><a href= "index.html">DUCKS</a></li>
+            <li><a href= "index.html">TURKEY</a></li>
+            <li><a href= "index.html">OTHERS</a></li>
         </ul>
     </div>
+    
     <br><br><br>
 <div class="header">
     <h1>About Us</h1>
@@ -82,16 +83,16 @@
 <section id=footer>
   <div class="container">
     <h2>Subscribe to our Newsletter</h2>
-    <p>Sign Up to the Poultry Health Arena Newslater so as to receive latest updates.</p>
+    <p>Sign Up to the Poultry Health Arena Newsletter so as to receive latest updates.</p>
   </div>
+  <form  name="myform">
   <div class="container">
-    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder=" First Name" name="name" required>
+    <input type="text" placeholder=" Last Name" name="name" required>
     <input type="text" placeholder="Email address" name="mail" required>
-  </div>
-
-  <div class="container">
-    <input type="submit" value="Subscribe">
-  </div>
+    <input type="button" value="Subscribe">
+    </div>
+</form>
 </section>
 <section id= "close">
     <div>
@@ -118,11 +119,28 @@
 </section>
 <div class="close-text">
     <div>
-        <p>Copyright @2021 Poultry Health arena  All rights reserved</p>
+        <p>Copyright @2021 Poultry Health arena  //All rights reserved//</p>
     </div>
     <div>
         <p>Designed by Limo</p>
     </div>
 </div>
+<script>
+    function book(){
+        let name=prompt("What is your name please")
+        let job=prompt("Are you a poultry farmer")
+        let services= prompt("How may we help you")
+        if(job=="yes" || services=="doctor")
+        {
+        alert("Hi " + name + "just a minute, we are linking you to a doctor");}
+
+        else{
+            alert(name + " welcome to our website we hope you get motivated")
+         }
+        }
+         let bookTheirServices=document.querySelector("button")
+         bookTheirServices.addEventListener("click" ,book);
+    
+</script>
 </body>
 </html>
