@@ -2,9 +2,9 @@
 {
     font-style: normal;
     font-size: medium;
+    font-family: 'Roboto', sans-serif;
 }
 /* navbar */
-
 nav{
     display: flex;
     background-color: #c4c4c4;
@@ -54,10 +54,11 @@ nav{
 }
 #poultry ul li{
     list-style-type: none;
+    text-decoration: none;
 }
-
-
-
+#poultry ul li a:hover{
+    color: #92E06A;
+}
 /* section about */
 
 
@@ -98,6 +99,7 @@ nav{
     width: 750px;
 
 }
+/* diseases symptoms prevention */
 .diseases-symp-prev {
     display: flex;
     margin: 3rem;
@@ -185,8 +187,9 @@ nav{
     width: 50%;
 }
 .img-sick1 img {
-    height: 400px;
+    height: 300px;
     width: 400px;
+    padding: 3rem;
 }
 /* footer */
 .offer{
