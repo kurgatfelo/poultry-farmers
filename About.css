@@ -53,6 +53,10 @@ nav{
 }
 #poultry ul li{
     list-style-type: none;
+    text-decoration: none;
+}
+#poultry ul li a:hover{
+    color: #92E06A;
 }
 .header{
     background-color: #c4c4c4;
