@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./images/images-removebg-preview (2).png" alt="" ><span class="logo-text">Poultry Health Arena</span>
+        </div>
+    <div class=logo-one>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About Us</a></li>
+               <li><a href="index.html">Contact Us</a></li>
+               <li><input type="Search" value="Search"></li>
+                
+        </ul>
+    </div>
+</nav>
+<div id= "poultry">
+    <ul>
+        <li><a href= "index.html">CHICKEN</a></li>
+        <li><a href= "index.html">DUCKS</a></li>
+        <li><a href= "index.html">TURKEY</a></li>
+        <li><a href= "index.html">OTHERS</a></li>
+    </ul>
+</div>
+
+<br>
+    <div class="health">
+        <div class="disease"> 
+            Poultry Health and Disease Control<br>
+                The basis of poultry health management is
+                The basis of poultry health management is: 
+                The isolation of the flock from disease 
+                causing organisms – quarantine: 
+                   
+                   
+            
+                </div>
+        <div class="imgchicken">
+            <marquee behavior="scroll" direction="up">
+            <img src="images/30-303788_transparent-chicken-feed-clipart-broiler-chicken-png-png.png" style="height: 250px; width: 600px; border-radius: 0px 100px 0px 100px;">
+        </marquee></div>
+    </div>
+    <div class="second-div">
+       <center><h2>Poultry Farming</h2></center> 
+        <p>Poultry farming is the form of animal husbandry which raises 
+            domesticated birds such as chickens, 
+            ducks, turkeys and geese to produce meat or eggs for food.
+             It has originated from the agricultural era. 
+            Poultry – mostly chickens – are farmed in great numbers
+            Poultry farming is the form of animal husbandry which raises
+             domesticated birds such as chickens, ducks, turkeys and geese to
+              produce meat or eggs for food. It has originated from
+             the agricultural era. Poultry – mostly chickens – are farmed in great numbers</p>
+    </div>
+    <div class="background">
+        <div>
+          <center><p1>Browse the ActiveBeat health content network. 
+            Take control of your health and wellness.<br> Find info on health management, facts, 
+            articles & more. Quick Pain Relief. Instagram. Fast Search</p1>></center>
+        </div>
+        
+    </div>
+    <div class="sign">
+        <div class="sign-up">
+          <center>  <label> <b>Sign UP</b></label><br><br></center>
+            <form name="myform" method="post" onSubmit="return validate()">
+            <label for="name"></label><input type="text" id="name" placeholder="Enter your name" style="background-color: #E19156; padding-left: 40px; height: 40px;width: 300px;border-color: #E19156;"><br><br>
+            <label for="email"></label><input type="email" id="email" placeholder="Enter your Email" style="background-color: #E19156;  padding-left: 40px; height: 40px; width: 300px;border-color: #E19156;"><br><br>
+            <label for="phone"></label><input type="number" id="phone" placeholder="Enter your phone" style="background-color: #E19156; padding-left: 40px; height: 40px; width: 300px;border-color: #E19156;"><br><br>
+             <center><label for id="male">Male</label><input type="radio" name="gender" id="male">
+             <label for id="female">Female</label>  <input type="radio" name="gender" id="female"></center>
+
+          <center>  <button type="submit" style="background-color: #CECECE; border-color: #CECECE;height: 30px;width: 80px; margin-top: 10px;color: #E19156;">SUBMIT</button></center>
+            </form>
+            <script type="text/javascript">
+            function validate(){
+                var name=document.forms["myform"]["name"].value;
+                var email=document.forms["myform"]["email"].value;
+                var phone=document.forms["myform"]["phone"].value;
+                var gender=document.forms["myform"]["gender"].validate;
+
+                if(name=="")
+                {
+                    alert("enter the name");
+                    return false;
+                }
+                if(!NaN(name))
+                {
+                    alert("Name should be in character")
+                    return false;
+                }
+                var at=email.indexOf("@");
+                var dot=email.lastIndexof(".");
+                if(at<1||dot<at+2||dot+2 >=email.length)
+                {
+                    alert("Not a valid email");
+                    return false;
+                }
+                if(phone=="")
+                {
+                    alert("enter phone number");
+                    return false;
+                }
+                if(isNaN("phone"))
+                {
+                    alert("phone number should be in digit");
+                    return false;
+                }
+                if(phone.length!=10)
+                {
+                    alert("must be 10 digit number");
+                    return false;
+                }
+                if(gender=="")
+                {
+                    alert("select a gender");
+                    return false;
+                }
+            }
+            
+            </script>
+        </div>
+        <div class="advert">
+            <img src="images/chicken-png-chickens-png.png" style="height: 250px; width: 700px;border-radius: 0px 100px 0px 100px;">
+        </div>
+    </div>
+    <center><h4>All poultry members together with our new members are welcome</h4>
+    <div class="footer">
+        <div class="chicken">
+            <h5>Subscribe To Our Newsletter</h5>
+            <p2>Sign up to the Echhook Newsletter<br>
+            for the latest from poultryHub</p2><br><br>
+        <form name="sign" method="post" onsubmit="return validate()">
+        <div class="form">
+            <input type="text"value="" id="fname" placeholder="First Nme" style="height: 40px; width: 300px;padding:20px;border-color: unset;">
+            <input type="text"value="" id="lname"placeholder="Last Nme" style="height: 40px; width: 300px; padding:20px;border-color: unset;"><br><br>
+           <input type="email" value="" id="email" placeholder="Your Email" style="height: 40px; width: 300px;padding:20px;border-right: unset;margin-right:unset;border-color: unset;">
+            <button type="submit" style="height: 40px; width: 150px;background-color: #CECECE;border: unset;">SUBMIT</button>
+        </div>
+       
+            </form></center>
+<script type="text/javascript">
+function validate()
+{
+    var fname=document.forms["sign"]["fname"].value;
+    var lname=document.forms["sign"]["lname"].value;
+    var email=document.forms["sign"]["email"].value;
+}
+if(fname=="")
+{
+    alert("enter first name");
+    return false;
+}
+if(!NaN(fname))
+{
+    alert("name should be a character");
+    return false;
+}
+if(lname=="")
+{
+    alert("enter last name");
+    return false;
+}
+if(!NaN(lname))
+{
+    alert("name should be a character");
+    return false;
+}
+              var at=email.indexOf("@");
+                var dot=email.lastIndexof(".");
+                if(at<1||dot<at+2||dot+2 >=email.length)
+                {
+                    alert("Not a valid email");
+                    return false;
+
+
+</script>
+
+       </div>
+     </div>
+     <div class="lastpage">
+     <div class="last">
+         <div class="lastlogo">
+             <img src="images/images-removebg-preview (2).png" alt="">
+         </div>
+         <div class="contact">
+             <label for="contact">CONTACT</label><br>
+             <ul>
+                 <li> <img src="images/location.jpeg" style="height: 20px;"> We are located at MORINGA</li><br>
+                 <li><img src="images/working hours.png" style="height: 20px;width: 20px;"> We are Open 24hrs</li><br>
+                 <li><img src="images/email.jpeg" style="height: 20px;width: 20px;"> email us @moringa poultryHub.com</li><br>
+
+             </ul>
+         </div>
+         <div class="links">
+             <label for="links">LINKS</label><br>
+             <ul>
+                 <li><a href="Home">Home</a></li><br>
+                <li><a href="About Us">About Us</a></li><br>
+            <li><a href="Contact Us">Home</a></li>  <br>     
+        
+        </ul>
+         </div>
+         <div class="lastfollow">
+             <label for="follow">Follow US</label><br><br>
+             <img src="images/social.png">
+             
+         </div>
+        
+     </div>
+
+     <center><div>
+        ©2021 Poultry Hub MORINGA All Rights Reserved | Privacy Policy
+       </div></center>
+</div>
+
+
+</div>
+</body>
+</html>
