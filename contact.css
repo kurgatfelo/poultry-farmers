@@ -52,6 +52,10 @@ nav{
   justify-content: space-around; 
   padding-top:3%;
 }
+#poultry li a:hover{
+    color: #92E06A;
+}
+
 .login{
     margin-left: 85%;
     margin-bottom: 23px;
@@ -105,7 +109,7 @@ nav{
 }
 #footer{
     text-align: center;
-    background-image:url(./contact-images/signup-removebg-preview.png
+    background-image:url(./contact-images/signup-removebg-preview\ \(copy\).png
     );
     color:#DF6C19;
     font-size: 40px;
@@ -142,3 +146,19 @@ nav{
     padding: 20px;
     background-color:#c4c4c4;
 }
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
