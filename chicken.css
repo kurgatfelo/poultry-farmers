@@ -53,6 +53,9 @@ nav{
   padding-top:3%; 
   padding-bottom:3%;
 }
+#poultry li a:hover{
+    color: #70E838;
+}
 .login{
     margin-left: 85%;
     margin-bottom: 23px;
