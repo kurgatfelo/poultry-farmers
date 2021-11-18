@@ -1,32 +1,55 @@
-.pha{
-    margin-left: 10%;
+html{
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
     position: absolute;
-    top: 5%;
-    color: #70E838;
-    font-weight: 800;
+    right: 3%;
 
 }
-.navSection>nav{
-    margin-right: 50px;
-    position: absolute;
-    top: 4%;
-    left: 30%;
-    flex-direction: row-reverse;
-    margin-top: 20px;
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
 }
-.navSection>nav>a{
-    justify-content: space-between;
-    font-weight: 800;
-    color: black;
-    padding: 50px;
+.logo-one ul li a{
     text-decoration: none;
-}
-.glass{
-    margin-left: 72%;
-    margin-bottom: 23px;
-    position: absolute;
-    top: 6%;
+    font-size: 25px;
     
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around; 
 }
 .login{
     margin-left: 85%;
@@ -35,48 +58,7 @@
     top: 5%;
     height: 40px;
     width: 150px;
-    background-color: #DF6C19;
-}
-.secondNav{
-    margin-left: 20%;
-    top:5%;
-    padding-bottom: 50px; 
-    
-}
-.CHICKEN{
-    margin-right:12%;
-    padding-right:4%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 0px 0px 0px 40px;
-    background-color: #70E838;
-}
-.ducks{
-    margin-right:10%;
-    padding-right:4%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 0px 0px 0px 40px;
-    background-color: #70E838;
-}
-.turkey{
-    margin-right: 12%; 
-    padding-right:4%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 0px 0px 0px 40px;
-    background-color: #70E838; 
-}
-.others{
-    padding-right:4%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 0px 0px 0px 40px;
-    background-color: #70E838;
+    background-color: #e5e5e5;
 }
 .secondSection{
     display: flex;
