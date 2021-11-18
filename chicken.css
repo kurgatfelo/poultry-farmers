@@ -49,7 +49,9 @@ nav{
 #poultry{
   display: flex;
   list-style-type: none;
-  justify-content: space-around; 
+  justify-content: space-around;
+  padding-top:3%; 
+  padding-bottom:3%;
 }
 .login{
     margin-left: 85%;
@@ -80,7 +82,7 @@ padding-top: 4%;
 }
 .iconOne{
    position: absolute;
-   top: 110%;
+   top: 114%;
 }
 .disease{
     padding-right: 8%;
@@ -162,7 +164,7 @@ padding-top: 4%;
 }
 .bd{
     font-size: 25px;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 .new{
     padding-right: 12%;
@@ -170,14 +172,14 @@ padding-top: 4%;
 }
 .murky{
     margin-top: 4%;
-    left: 32.5%;
+    left: 31.5%;
     position: absolute;
     font-size: 25px;
 }
 .nasal{
     margin-top: 6%;
     position: absolute;
-    right: 56.2%;
+    right: 57.2%;
     font-size: 25px;
 }
 .practice{
@@ -232,15 +234,15 @@ padding-top: 4%;
     font-size: 25px;
 }
 .areas{
-    padding-left: 8%;
+    padding-left: 10%;
 }
 .eye{
     margin-top: 4%;
-    left: 30.5%;
+    left: 32.5%;
     position: absolute;
 }
 .vaccinate{
-    padding-left: 18%;   
+    padding-left: 16%;   
 }
 
 .some{
@@ -321,18 +323,41 @@ padding-top: 4%;
 .fourthSection{
     background-color: #E5E5E5;
 }
-.fifthSection{
+#footer{
+    text-align: center;
+    background-image:url(chicken.images/);
+    color:#DF6C19;
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    background-color: #92E06A;
+}
+#footer .container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.container input {
+    padding: 20px;
+    margin:0 auto;
+}
+#close{
     display: flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
 }
-.copy{
-    padding-right: 20%;
-    padding-left: 8%;
-    font-weight: bolder;
+#close .info img{
+    height: 6vh;
+    width: 6vh;
 }
-.design{
-    padding-left:25%;
-    font-weight: bolder;
+#close .info{
+    display: flex;
+    flex-direction:column;
 }
-.fb,.yt,.tw,.ig,.in{
-    padding-top: 1%;
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
 }
