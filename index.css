@@ -1,69 +1,10 @@
-/* #first-div{
 
-    display: inline;
-
+html{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
-.logo-image{
-    display: inline;
-  
-    
-}
-.arena{
-    position: relative; top: 40px;
-    display: inline;
-    color: #E19156;
-}
-.nav{
-    display: flex;
-    background-color: #c4c4c4;
-    align-items: flex-start;
-}
-.navig{
-   display: flex;
-   align-items: flex-start;
-   margin-top: 5px;
-}
-.nav .navig ul{
-justify-content: space-around;
-align-items: stretch;
-display: flex;
-width: 100%;
-flex-direction: row;
-align-items: flex-start;
-padding-top: 5px;
-text-decoration: none;
-}
-.nav .navig ul li{
-    padding: 70px;
-    float: right; 
-    padding-top: 5px;
-    text-decoration: none;
-}
-.textone{
-    display:flex;
-flex-direction: row;
-}
-.types{
-display: flex;
-}
-.types button{
-   background-color: #92E06A;
-   height: 50px;
-   width: 150px;
-   
-   padding: 30px;
-  
-   margin-right: 50px;
-   margin-left: 100px;
-   border-radius: 0px 0px 0px 40px;
-   border-color:#92E06A;
-   margin-top: 40px;
-    
-}
-li{
-    list-style: none;
-
-} */
 nav{
     display: flex;
     background-color: #c4c4c4;
@@ -72,7 +13,7 @@ nav{
 .logo-one ul{
     display: flex;
     position: absolute;
-    right: 3%;
+    right:2%;
 
 }
 .logo-one ul li {
@@ -80,8 +21,11 @@ nav{
     list-style-type: none;
     display:block;
     margin: 0 auto; 
-    padding: 70px;
+    padding: 30px;
 
+}
+#poultry ul li :hover{
+    color: #92E06A;
 }
 .logo-one ul li a{
     text-decoration: none;
@@ -94,6 +38,7 @@ nav{
     border: transparent;
     font-size: 15px;
     text-align: center;
+    position: relative; bottom: 20px;
 }
 .logo img{
     height: 20vh;
@@ -143,7 +88,7 @@ h2{
     font-size: xx-large;
     color: #E19156;
 } 
-p{
+ .second-div p{
     background-color: #83DE76;
     border-color: #83DE76;
     height: 250px;
@@ -202,44 +147,68 @@ label{
     height: 10px;
     width: 10px;
 }
-h4{
-    padding-top: 70px;
-    font-size: 30px;
-    font-style: italic;
-}
-#male{
-    font-size: 20px;
-}
-#female{
-    font-size: 20px;
-}
-.chicken{
-    background-image: url("./images/signup-removebg-preview.png");
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    background-color:#83DE76 ;
 
-
-
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
 }
-.footer .form{
-    text-align: left;
-    margin-left: 400px;
-    
-}
-h5{
+#footer{
+    text-align: center;
+    background-image:url(./images/signup-removebg-preview.png
+    );
+    color:#DF6C19;
     font-size: 40px;
-    color: #E19156;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    background-color: #92E06A;
 }
-.footer p2{
-    font-size: 25px;
-    color:#C4C4C4;
+#footer .container{
+    margin-top: 100px;
 }
-.last{
+.container input {
+    padding: 20px ;
+    margin:0 auto;
+}
+#close{
     display: flex;
     justify-content: space-around;
+    background-color: #c4c4c4;
 }
-.lastpage{
-    background-color: #C4C4C4;
+#close .info img{
+    height: 6vh;
+    width: 6vh;
 }
+#close .info{
+    display: flex;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
+}
+@media only screen and (max-width:500px){
+   #support{
+       flex-direction: column;
+   } 
+   .principles{
+       flex-direction: column;
+   }
+}
+    
