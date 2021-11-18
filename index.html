@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./images/images-removebg-preview (2).png" alt="" ><span class="logo-text">Poultry Health Arena</span>
+        </div>
+    <div class=logo-one>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+               <li><a href="contactus.html">Contact Us</a></li>
+               <li><input type="Search" value="Search" style="margin-bottom: 10px;"></li>
+                
+        </ul>
+    </div>
+</nav>
+<div id= "poultry">
+    <ul>
+        <li><a href= "chicken.html">CHICKEN</a></li>
+        <li><a href= "ducks.html">DUCKS</a></li>
+        <li><a href= "turkey.html">TURKEY</a></li>
+        <li><a href= "others.html">OTHERS</a></li>
+    </ul>
+</div>
+
+<br>
+    <div class="health">
+        <div class="disease"> 
+            Poultry Health and Disease Control<br>
+                The basis of poultry health management is
+                The basis of poultry health management is: 
+                The isolation of the flock from disease 
+                causing organisms – quarantine: 
+                   
+                   
+            
+                </div>
+        <div class="imgchicken">
+            <marquee behavior="scroll" direction="up">
+            <img src="images/30-303788_transparent-chicken-feed-clipart-broiler-chicken-png-png.png" style="height: 250px; width: 600px; border-radius: 0px 100px 0px 100px;">
+        </marquee></div>
+    </div>
+    <div class="second-div">
+       <center><h2>Poultry Farming</h2></center> 
+        <p>Poultry farming is the form of animal husbandry which raises 
+            domesticated birds such as chickens, 
+            ducks, turkeys and geese to produce meat or eggs for food.
+             It has originated from the agricultural era. 
+            Poultry – mostly chickens – are farmed in great numbers
+            Poultry farming is the form of animal husbandry which raises
+             domesticated birds such as chickens, ducks, turkeys and geese to
+              produce meat or eggs for food. It has originated from
+             the agricultural era. Poultry – mostly chickens – are farmed in great numbers</p>
+    </div>
+    <div class="background">
+        <div>
+          <center><p1>Browse the ActiveBeat health content network. 
+            Take control of your health and wellness.<br> Find info on health management, facts, 
+            articles & more. Quick Pain Relief. Instagram. Fast Search</p1>></center>
+        </div>
+        
+    </div>
+    <div class="sign">
+        <div class="sign-up">
+          <center>  <label> <b>Sign UP</b></label><br><br></center>
+            <form name="myform" method="post" onsubmit="return validate()">
+            <label for="name"></label><input type="text" id="name" placeholder="Enter your name" style="background-color: #E19156; padding-left: 40px; height: 40px;width: 300px;border-color: #E19156;"><br><br>
+            <label for="email"></label><input type="email" id="email" placeholder="Enter your Email" style="background-color: #E19156;  padding-left: 40px; height: 40px; width: 300px;border-color: #E19156;"><br><br>
+            <label for="phone"></label><input type="number" id="phone" placeholder="Enter your phone" style="background-color: #E19156; padding-left: 40px; height: 40px; width: 300px;border-color: #E19156;"><br><br>
+             <center><label for id="male">Male</label><input type="radio" name="gender" id="male">
+             <label for id="female">Female</label>  <input type="radio" name="gender" id="female"></center>
+
+          <center>  <button type="submit" style="background-color: #CECECE; border-color: #CECECE;height: 30px;width: 80px; margin-top: 10px;color: #E19156;">SUBMIT</button></center>
+            </form>
+           <script type="text/javascript">
+        function validate()
+        {
+            var name=document.forms["myform"]["name"].value;
+            var email=document.forms["myform"]["email"].value;
+            var phone=document.forms["myform"]["phone"].value;
+            var gender=document.forms["myform"]["gender"].value;
+            if(name=="")
+            {
+                alert("enter your name");
+                return false;
+            }
+            if(!isNaN(name)){
+                alert("name should be a character");
+                return false;
+            }
+            var at=email.indexOf("@");
+            var dot=email.lastIndexOf(".");
+            if(at<1||dot<at+2||dot+2 >=email.length)
+            {
+                alert("Not a valid email");
+                return false;
+            } 
+            if(phone=="")
+            {
+                alert("enter phone number");
+                return false;
+            }
+            if(!isNaN(phone)){
+                alert("phone number should be in digit");
+                return false;
+            }
+            if(phone.length!=10)
+            {
+                alert("must be 10 digit");
+                return false;
+            } 
+            if(gender=="")
+            {
+                alert("select a gender");
+                return false;
+            }
+
+        }
+
+        
+        
+        
+        </script>
+        </div>
+        <div class="advert">
+            <img src="images/chicken-png-chickens-png.png" style="height: 250px; width: 700px;border-radius: 0px 100px 0px 100px;">
+        </div>
+    </div>
+    <center><h4>All poultry members together with our new members are welcome</h4>
+
+<button class="offer">Book Their Services</button>
+<script>
+    function book(){
+        let name=prompt("what is your name")
+        let job=prompt("Are you a farmer?")
+        let services=prompt("How may we help you")
+        if(job=="yes"||services=="see doctor")
+        {
+        alert("Hi " + name + "wait a minute we connect you to a doctor");}
+        else{
+         alert ("Hi" + name + "welcome to our website hope you get motivated")
+        }
+    }
+    let bookServices=document.querySelector("button.offer")
+    bookServices.addEventListener("click", book)
+    
+</script>
+
+<section id=footer>
+  <div class="container">
+        <h2>Subscribe to our Newsletter</h2>
+          <p>Sign Up to the Poultry Health Arena Newsletter so as to receive latest updates.</p>
+  </div>
+  <div class="container">
+  <form>
+
+        <label for="first"></label><input type="text" placeholder=" First Name" name="fname" >
+        <input type="text" placeholder=" Last Name" name="lname" > <br><br>
+        <input id="text" placeholder="Email address" type="text" name="mail" required>
+         <input type="button"value="submit">
+        </div>
+</form>
+<script type="text/javascript">
+
+if(first=="")
+{
+    alert("enter you first name");
+    return false;
+
+}
+  
+
+
+
+
+</script>
+</section>
+<section id= "close">
+    <div>
+        <img src="./images/images-removebg-preview (2).png" alt="">
+    </div>
+    <div class= "info">
+        <h2>Contact</h2>
+        <img src="./images/location.jpeg" alt=""> <span>Located at Ngong Lane Plaza <br> off Ngong Road</span>
+        <img src="./images/email.jpeg" alt=""> <span>info@poultryhealtharena</span>
+        <img src="./images/working hours.png" alt=""> <span>Monday-Friday</span>
+    </div>
+    <div>
+        <h2>Links</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+             <li><a href="index.html">About Us</a></li>
+            <li><a href="index.html">Contact Us</a></li>  
+     </ul>
+     </div>
+        <div class="socialmedia">
+            <h2>Follow Us</h2>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+</section>
+<div class="close-text">
+    <div>
+        <p>Copyright @2021 Poultry Health arena  //All rights reserved//</p>
+    </div>
+    <div>
+        <p>Designed by Group 3</p>
+    </div>
+</div>
+</body>
+</html>
