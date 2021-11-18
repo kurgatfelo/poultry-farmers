@@ -326,6 +326,9 @@ padding-top: 4%;
 .fourthSection{
     background-color: #E5E5E5;
 }
+#footer{
+    text-align: center;
+    background-image:url(chicken.images/signup-removebg-preview\ \(copy\).png);
 .offer{
     display: block;
     margin: 0 auto;
