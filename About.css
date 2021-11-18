@@ -1,6 +1,8 @@
 html{
     margin:0 auto;
     padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 nav{
     display: flex;
@@ -23,6 +25,7 @@ nav{
 }
 .logo-one ul li a{
     text-decoration: none;
+    font-size: 25px;
     
 } 
 
@@ -141,6 +144,13 @@ font-size: 55px;
     border: transparent;
     font-size: 20px; 
 } 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
+}
 #footer{
     text-align: center;
     background-image:url(./images/signup-removebg-preview.png
@@ -154,10 +164,9 @@ font-size: 55px;
 }
 #footer .container{
     margin-top: 100px;
-    padding: 30px;
 }
 .container input {
-    padding: 20px;
+    padding: 20px ;
     margin:0 auto;
 }
 #close{
@@ -180,4 +189,14 @@ font-size: 55px;
     padding: 20px;
     background-color:#c4c4c4;
 }
+@media only screen and (max-width:500px){
+   #support{
+       flex-direction: column;
+   } 
+   .principles{
+       flex-direction: column;
+   }
+}
+    
+
 
