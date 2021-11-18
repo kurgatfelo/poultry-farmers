@@ -1,0 +1,245 @@
+/* #first-div{
+
+    display: inline;
+
+}
+.logo-image{
+    display: inline;
+  
+    
+}
+.arena{
+    position: relative; top: 40px;
+    display: inline;
+    color: #E19156;
+}
+.nav{
+    display: flex;
+    background-color: #c4c4c4;
+    align-items: flex-start;
+}
+.navig{
+   display: flex;
+   align-items: flex-start;
+   margin-top: 5px;
+}
+.nav .navig ul{
+justify-content: space-around;
+align-items: stretch;
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: flex-start;
+padding-top: 5px;
+text-decoration: none;
+}
+.nav .navig ul li{
+    padding: 70px;
+    float: right; 
+    padding-top: 5px;
+    text-decoration: none;
+}
+.textone{
+    display:flex;
+flex-direction: row;
+}
+.types{
+display: flex;
+}
+.types button{
+   background-color: #92E06A;
+   height: 50px;
+   width: 150px;
+   
+   padding: 30px;
+  
+   margin-right: 50px;
+   margin-left: 100px;
+   border-radius: 0px 0px 0px 40px;
+   border-color:#92E06A;
+   margin-top: 40px;
+    
+}
+li{
+    list-style: none;
+
+} */
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    position: absolute;
+    right: 3%;
+
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
+}
+.logo-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry ul{
+  display: flex; 
+  justify-content: space-around; 
+  
+}
+#poultry ul li{
+    list-style-type: none;
+}
+.health{
+    display:flex;
+    margin: 50px;
+    justify-content: space-evenly;
+
+}
+
+.disease{
+    background-color: #92E06A;
+    height: 210px;
+    border-radius: 0px 100px 0px 100px;
+    padding-top: 40px;padding-left: 30px;
+    overflow: hidden;
+    padding-right: 40px;
+}
+
+  
+.health .imgchicken{
+    border-radius: 0px 0px 0px 100px;
+    height: 250px;
+
+
+
+
+}
+h2{
+    font-size: xx-large;
+    color: #E19156;
+} 
+p{
+    background-color: #83DE76;
+    border-color: #83DE76;
+    height: 250px;
+    border-radius: 0px 100px 0px 100px;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-top: 70px;
+    padding-right: 40px;
+}
+label{
+    color: #E19156;
+    font-size: 30px;
+}
+.background button{
+    text-align: center; 
+    margin-top: 200px;
+
+    
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/images\ \(1\).jpeg");
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+
+    
+}
+.background p1{
+  
+  max-width: 10%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: italic;
+  color:#E19156;
+  text-align: center;
+
+}
+.sign{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.location{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    flex-direction: row;
+    -ms-flex-item-align: center;
+}
+.time{
+    height: 10px;
+    width: 10px;
+}
+h4{
+    padding-top: 70px;
+    font-size: 30px;
+    font-style: italic;
+}
+#male{
+    font-size: 20px;
+}
+#female{
+    font-size: 20px;
+}
+.chicken{
+    background-image: url("./images/signup-removebg-preview.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-color:#83DE76 ;
+
+
+
+}
+.footer .form{
+    text-align: left;
+    margin-left: 400px;
+    
+}
+h5{
+    font-size: 40px;
+    color: #E19156;
+}
+.footer p2{
+    font-size: 25px;
+    color:#C4C4C4;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+.lastpage{
+    background-color: #C4C4C4;
+}
