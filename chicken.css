@@ -26,7 +26,6 @@ nav{
 .logo-one ul li a{
     text-decoration: none;
     font-size: 25px;
-    
 } 
 
 .logo-one input{
@@ -92,7 +91,6 @@ padding-top: 4%;
     font-size: 20px;
     font-weight: bolder;
     background-color: #70E838;
-
 }
 .symptoms{
     margin-left: 17%;
@@ -276,7 +274,6 @@ padding-top: 4%;
     padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
-
 }
 .newc{
     display: flex;
