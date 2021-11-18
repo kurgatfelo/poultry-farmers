@@ -248,3 +248,12 @@ button:hover{
     padding: 20px;
     background-color:#c4c4c4;
 }
+
+@media only screen and (max-width:500px){
+    #support{
+        flex-direction: column;
+    } 
+    .principles{
+        flex-direction: column;
+    }
+ }
