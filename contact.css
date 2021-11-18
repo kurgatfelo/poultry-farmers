@@ -1,0 +1,143 @@
+html{
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    position: absolute;
+    right: 3%;
+
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
+}
+.logo-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around; 
+}
+.login{
+    margin-left: 85%;
+    margin-bottom: 23px;
+    position: absolute;
+    top: 5%;
+    height: 40px;
+    width: 150px;
+    background-color: #e5e5e5;
+}
+
+.love{
+    font-size: 48px;
+    margin-left: 8%;
+    font-family: 'Rye';
+}
+.hear{
+    font-size: 45px;
+    margin-left: 10%;
+    font-family: 'Rye';
+}
+.footer{
+    display: flex;
+}
+.fb{
+    margin-left: 3%;
+}
+.in{
+    margin-right: 3%;
+}
+.copy{
+    margin-left: 2%;
+    font-family: 'Roboto';
+}
+.design{
+    font-family: 'Roboto'; 
+}
+.fb,.yt,.tw,.ig,.in{
+  margin-top: 1%;
+}
+.secondSection{
+    background-color: #70E838;
+    width: 50%;
+    padding-bottom: 2%;
+}
+.contacts{
+    margin-left: 56%;
+    position: absolute;
+    top:38%;
+    font-family: 'Nobile';
+    font-size: 35px;
+}
+#footer{
+    text-align: center;
+    background-image:url(./contact-images/signup-removebg-preview.png
+    );
+    color:#DF6C19;
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    background-color: #92E06A;
+}
+#footer .container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.container input {
+    padding: 20px;
+    margin:0 auto;
+}
+#close{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+}
+#close .info img{
+    height: 6vh;
+    width: 6vh;
+}
+#close .info{
+    display: flex;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
+}
