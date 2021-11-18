@@ -50,6 +50,7 @@ nav{
   display: flex;
   list-style-type: none;
   justify-content: space-around; 
+  padding-top:3%;
 }
 .login{
     margin-left: 85%;
