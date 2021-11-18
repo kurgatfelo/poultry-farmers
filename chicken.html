@@ -16,18 +16,18 @@
         <div class=logo-one>
            <ul>
                <li><a href="index.html">Home</a></li>
-               <li><a href="index.html">About Us</a></li>
-               <li><a href="index.html">Contact Us</a></li>
+               <li><a href="About.html">About Us</a></li>
+               <li><a href="contactus.html">Contact Us</a></li>
                <li><input type="Search" value="Search"></li>
            </ul>
         </div>
     </nav>
    
     <div id="poultry">
-      <li><a href="chics">CHICKEN</a></li>
-      <li><a href="duck">DUCKS</a></li>
-      <li><a href="turkey">TURKEY</a></li>
-      <li><a href="other">OTHERS</a></li>
+      <li><a href="chicken.html">CHICKEN</a></li>
+      <li><a href="ducks.html">DUCKS</a></li>
+      <li><a href="turkey.html">TURKEY</a></li>
+      <li><a href="other.html">OTHERS</a></li>
     </div>
    
 
@@ -140,22 +140,62 @@
         </div>
 
     </div>
-
+    <button class="offer">Book Their Services</button>
+    <script>
+        function book(){
+            let name=prompt("What is your name please")
+            let job=prompt("Are you a poultry farmer")
+            let services= prompt("How may we help you")
+            if(job=="yes" || services=="doctor")
+            {
+            alert("Hi " + name + " just a minute, we are linking you to a doctor");}
+    
+            else{
+                alert(name + " welcome to our website we hope you get motivated")
+             }
+            }
+             let bookTheirServices=document.querySelector("button.offer")
+             bookTheirServices.addEventListener("click" ,book);
+        
+    </script>
+    
     <section id=footer>
         <div class="container">
           <h2>Subscribe to our Newsletter</h2>
           <p>Sign Up to the Poultry Health Arena Newsletter so as to receive latest updates.</p>
         </div>
-        <form  name="myform">
+        <form  name="myform" method="post" onsubmit="return validate()">
             <div class="container">
             
-              <input type="text" placeholder=" First Name" name="name" required>
-              <input type="text" placeholder=" Last Name" name="name" required> <br><br>
-              <input id="text" placeholder="Email address" type="text" name="mail" required>
-               <input type="button" placeholder= "" value="Subscribe">
+              <label for="first"></label><input type="text" placeholder=" First Name" name="fname" id="fname" required>
+              <input type="text" placeholder=" Last Name" name="lname" id="lname"required> <br><br>
+              <input type="email" placeholder="Email address"  name="mail" id="email" required>
+               <button type="submit" value="submit" style="height: 60px; width: 100px;">submit</button>
             </div>
           
         </form>
+        <script language="text/javascript">
+         function validate()
+         {
+           var first=document.forms["myform"]["fname"].value;
+           if(first=="")
+           {
+            alert("enter first name");
+            return false;
+           }
+         }
+      
+     
+        
+       
+        
+        
+        
+        
+        
+        
+        </script>
+
     </section>
       <section id= "close">
           <div>
@@ -195,38 +235,6 @@
               <p>Designed by Group 6</p>
           </div>
       </div>
-      <script>
-          function book(){
-              let name=prompt("What is your name please")
-              let job=prompt("Are you a poultry farmer")
-              let services= prompt("How may we help you")
-              if(job=="yes" || services=="doctor")
-              {
-              alert("Hi " + name + "just a minute, we are linking you to a doctor");}
-      
-              else{
-                  alert(name + " welcome to our website we hope you get motivated")
-               }
-              }
-               let bookTheirServices=document.querySelector("button")
-               bookTheirServices.addEventListener("click" ,book);
-          
-      </script>
-
-
-
-
-
-
-
-        
-        
-
-
-
-
-
-
-    
+  
 </body>
 </html>

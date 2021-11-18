@@ -323,6 +323,23 @@ padding-top: 4%;
 .fourthSection{
     background-color: #E5E5E5;
 }
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
+}
 #footer{
     text-align: center;
     background-image:url(chicken.images/signup-removebg-preview.png);
