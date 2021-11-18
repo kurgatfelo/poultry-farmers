@@ -46,13 +46,10 @@ nav{
     margin-top: 4%;
 }
 
-#poultry ul{
-  display: flex; 
+#poultry{
+  display: flex;
+  list-style-type: none;
   justify-content: space-around; 
-  
-}
-#poultry ul li a{
-    text-decoration: none;
 }
 .login{
     margin-left: 85%;
@@ -96,6 +93,7 @@ nav{
 .secondSection{
     background-color: #70E838;
     width: 50%;
+    padding-bottom: 4%;
 }
 .contacts{
     margin-left: 56%;
