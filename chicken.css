@@ -53,6 +53,9 @@ nav{
   padding-top:3%; 
   padding-bottom:3%;
 }
+#poultry li a:hover{
+    color: #70E838;
+}
 .login{
     margin-left: 85%;
     margin-bottom: 23px;
@@ -326,6 +329,26 @@ padding-top: 4%;
 #footer{
     text-align: center;
     background-image:url(chicken.images/signup-removebg-preview\ \(copy\).png);
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
+}
+#footer{
+    text-align: center;
+    background-image:url(chicken.images/signup-removebg-preview.png);
     color:#DF6C19;
     font-size: 40px;
     background-size: cover;
