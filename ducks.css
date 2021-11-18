@@ -3,6 +3,61 @@
     font-style: normal;
     font-size: medium;
 }
+/* navbar */
+
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    position: absolute;
+    right: 3%;
+
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
+}
+.logo-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry ul{
+  display: flex; 
+  justify-content: space-around; 
+  
+}
+#poultry ul li{
+    list-style-type: none;
+}
+
+
+
 /* section about */
 
 
