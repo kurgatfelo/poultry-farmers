@@ -65,7 +65,7 @@ nav{
 .about {
     display: flex;
     height: 80vh;
-    background-color:  green;
+    background-color: #92E06A;
     border-radius: 20px;
     
 }
@@ -117,7 +117,7 @@ nav{
 .diseases-symp-prev h1 {
     text-align: center;
     font-weight: bold;
-    color: orange;
+    color:#DF6C19;
     padding: 1rem;
     
 }
@@ -137,67 +137,13 @@ nav{
 .button button {
     height: 3rem;
     width: 10rem;
-    background-color: green;
+    background-color: #92E06A;
     border: 1px;
     margin-left: 2rem;
     
 }
-/* sick ducks */
-/* .sickling {
-    background-color: green;
-    height: 100vh;
-    border-radius: 20px;
-}
-.sick-ducks h1 {
-    text-align: center;
-    color: orange;
-}
-.sick-images {
-    display: flex;
-    height: 10vh;
-}
-.img-sick {
-    width: 50%;
-}
-.img-sick img {
-    height: 400px;
-    width: 400px;
-}
-.sick text {
-    width: 50%;
-    align-items: center;
-}
-.sick-text h2 {
-    text-align: center;
-    padding: 1rem;
-    font-weight: bold;
-}
-.sick-text p {
-    text-align: center;
-}
-.sick-text p span{
-    display: block;   
-}
-.sick-images1 {
-    display: flex;
-}
-.img-sick1 {
-    width: 50%;
-}
-.sick-text1 {
-    width: 50%;
-
-}
-sick-text1 h2 {
-    margin-left: 2rem;
-}
-.img-sick1 img {
-    height: 300px;
-    width: 400px;
-    padding: 3rem;
-} */
 .sickling {
-    background-color: green;
+    background-color: #92E06A;
     border-radius: 20px;
     height: 100vh;
 }
