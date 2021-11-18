@@ -11,11 +11,14 @@
 <body>
     <nav>
         <div class="logo">
-           <img src="chicken.images/logoone-removebg-preview.png" alt="" ><span class="logo-text">Poultry Health Arena</span>
+           <img src="chicken.images/logoone-removebg-preview (copy).png" alt="" ><span class="logo-text">Poultry Health Arena</span>
+           <img src="chicken.images/logoone-removebg-preview.png" alt="" ><span class="logo-text">Poultry Health Arena</spa
         </div>
         <div class=logo-one>
            <ul>
                <li><a href="index.html">Home</a></li>
+               <li><a href="index.html">About Us</a></li>
+               <li><a href="index.html">Contact Us</a></li>
                <li><a href="About.html">About Us</a></li>
                <li><a href="contactus.html">Contact Us</a></li>
                <li><input type="Search" value="Search"></li>
@@ -24,10 +27,12 @@
     </nav>
    
     <div id="poultry">
+
       <li><a href="chicken.html">CHICKEN</a></li>
       <li><a href="ducks.html">DUCKS</a></li>
       <li><a href="turkey.html">TURKEY</a></li>
       <li><a href="other.html">OTHERS</a></li>
+      
     </div>
    
 
@@ -88,12 +93,8 @@
             <p class="eye">*Discharge from your bird’s eyes.</p>
             <p class="vaccinate">*Vaccination</p>
         </div>
-
-
     </div>
-
     <button class="some">HERE ARE SOME OF THE DISEASES  AND  ITS IMAGES</button>
-
     <div class="fourthSection">
         <div class="cocc">
             <div class="firstPic">
@@ -131,27 +132,10 @@
         </div>
 
     </div>
-    <button class="offer">Book Their Services</button>
-    <script>
-        function book(){
-            let name=prompt("What is your name please")
-            let job=prompt("Are you a poultry farmer")
-            let services= prompt("How may we help you")
-            if(job=="yes" || services=="doctor")
-            {
-            alert("Hi " + name + " just a minute, we are linking you to a doctor");}
-    
-            else{
-                alert(name + " welcome to our website we hope you get motivated")
-             }
-            }
-             let bookTheirServices=document.querySelector("button.offer")
-             bookTheirServices.addEventListener("click" ,book);
-        
-    </script>
-    
+          <button class="offer">Book Their Services</button>
+
     <section id=footer>
-         <div class="container">
+   <div class="container">
              <h2>Subscribe to our Newsletter</h2>
                <p>Sign Up to the Poultry Health Arena Newsletter so as to receive latest updates.</p>
          </div>
@@ -166,14 +150,27 @@
           
           </form>
      </section>
+        <div class="container">
+          <h2>Subscribe to our Newsletter</h2>
+          <p>Sign Up to the Poultry Health Arena Newsletter so as to receive latest updates.</p>
+        </div>
+        <form  name="myform">
+            <div class="container">
+               <input type="text" placeholder=" First Name" name="name" required>
+               <input type="text" placeholder=" Last Name" name="name" required> <br><br>
+               <input id="text" placeholder="Email address" type="text" name="mail" required>
+               <input type="button" placeholder= "" value="Subscribe">
+            </div>
+        </form>
+    </section>
       <section id= "close">
           <div>
-              <img src="chicken.images/logoone-removebg-preview.png" alt="">
+              <img src="chicken.images/logoone-removebg-preview (copy).png" alt="">
           </div>
           <div class= "info">
               <h2>Contact</h2>
               <img src="chicken.images/location-removebg-preview.png" alt=""> <span>Located at Ngong Lane Plaza <br> off Ngong Road</span>
-              <img src="chicken.images/email-removebg-preview.png" alt=""> <span>info@poultryhealtharena</span>
+              <img src="chicken.images/email-removebg-preview (copy).png" alt=""> <span>info@poultryhealtharena</span>
               <img src="chicken.images/working_hours-removebg-preview.png" alt=""> <span>Monday-Friday</span>
           </div>
           <div>
@@ -187,12 +184,16 @@
            <div>
              <h2>Follow Us</h2>
               <div class="socialmedia">
-            
                   <img src="chicken.images/iconfinder_network_fb_social media_facebook_facebook logo_5279111 (1).svg" height="15px"></img>
                  <img src="chicken.images/download__1_-removebg-preview.png" height="15px"></img>
                  <img src="chicken.images/download-removebg-preview.png" height="15px"></img>
                  <img src="chicken.images/instagram-icon-vector-27.jpg" height="15px"></img>
                  <img src="chicken.images/linked-in-icon-png-24.jpg" height="15px"></img>
+                <img src="chicken.images/iconfinder_network_fb_social media_facebook_facebook logo_5279111 (1) (copy).svg" height="15px"></img>
+                <img src="chicken.images/download-removebg-preview (copy).png" height="15px"></img>
+                <img src="chicken.images/download__1_-removebg-preview.png" height="15px"></img>
+                <img src="chicken.images/instagram-icon-vector-27.jpg" height="15px"></img>
+                <img src="chicken.images/linked-in-icon-png-24.jpg" height="15px
               </div>
             </div>
       </section>
@@ -204,6 +205,22 @@
               <p>Designed by Group 6</p>
           </div>
       </div>
-  
+      <script>
+          function book(){
+              let name=prompt("What is your name please")
+              let job=prompt("Are you a poultry farmer")
+              let services= prompt("How may we help you")
+              if(job=="yes" || services=="doctor")
+              {
+              alert("Hi " + name + "just a minute, we are linking you to a doctor");}
+      
+              else{
+                  alert(name + " welcome to our website we hope you get motivated")
+               }
+              }
+               let bookTheirServices=document.querySelector("button")
+               bookTheirServices.addEventListener("click" ,book);
+          
+      </script>
 </body>
 </html>

@@ -1,0 +1,257 @@
+*
+{
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar */
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    position: absolute;
+    right: 3%;
+
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
+}
+.logo-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry ul{
+  display: flex; 
+  justify-content: space-around; 
+  
+}
+#poultry ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+#poultry ul li a:hover{
+    color: #92E06A;
+}
+/* section about */
+
+
+.about {
+    display: flex;
+    height: 80vh;
+    background-color: #92E06A;
+    border-radius: 20px;
+    
+}
+.about .about-text {
+    width: 50%;
+
+}
+.about .about-text h1 {
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 3rem;
+
+}
+.about .about-text p {
+    line-height: 2rem;
+}
+.about .about-text p span {
+    display: block;
+    text-align: center;
+    
+}
+.about .image {
+    width: 50%;
+    
+
+}
+.about .image img {
+    height: 600px;
+    width: 750px;
+
+}
+/* diseases symptoms prevention */
+.diseases-symp-prev {
+    display: flex;
+    margin: 3rem;
+    height: 120vh;
+}
+.diseases {
+    width: 30%;
+}
+.symptoms {
+    width: 30%;
+}
+.prevention {
+    width: 30%;
+}
+.diseases-symp-prev h1 {
+    text-align: center;
+    font-weight: bold;
+    color:#DF6C19;
+    padding: 1rem;
+    
+}
+.diseases-symp-prev > div > p{
+    line-height: 2rem;
+    
+}
+.diseases-symp-prev p {
+    padding: .5rem;
+    text-align: center;
+    line-height: 1rem;
+
+}
+.diseases-symp-prev p span {
+    display: block;
+}
+.button button {
+    height: 3rem;
+    width: 10rem;
+    background-color: #92E06A;
+    border: 1px;
+    margin-left: 2rem;
+    
+}
+.sickling {
+    background-color: #92E06A;
+    border-radius: 20px;
+    height: 100vh;
+}
+.sick-images {
+    display: flex;
+    height: 50vh;
+}
+.img-sick {
+    width: 50%;
+}
+.img-sick img {
+    height: 350px;
+    width: 500px;
+
+}
+.text-sick {
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+}
+.text-sick h2 {
+    font-weight: bold;
+}
+.text-sick p span {
+    display: block;
+    line-height: 1rem;
+}
+.sick-images1 {
+    display: flex;
+    height: 50vh;
+}
+.img-sick1 {
+    width: 50%;
+}
+.img-sick1 img {
+    height: 350px;
+    width: 500px;
+    padding: 1rem;
+}
+.text-sick1 {
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+/* footer */
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
+}
+#footer{
+    text-align: center;
+    background-image:url(./images/signup-removebg-preview.png
+    );
+    color:#DF6C19;
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    background-color: #92E06A;
+}
+#footer .container{
+    margin-top: 100px;
+}
+.container input {
+    padding: 20px ;
+    margin:0 auto;
+}
+#close{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+}
+#close .info img{
+    height: 6vh;
+    width: 6vh;
+}
+#close .info{
+    display: flex;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
+}
+
+@media only screen and (max-width:500px){
+    #support{
+        flex-direction: column;
+    } 
+    .principles{
+        flex-direction: column;
+    }
+ }
