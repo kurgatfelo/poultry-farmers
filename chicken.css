@@ -1,0 +1,396 @@
+html{
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    background-color: #c4c4c4;
+    height: 20vh;
+}
+.logo-one ul{
+    display: flex;
+    position: absolute;
+    right: 3%;
+
+}
+.logo-one ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 0 auto; 
+    padding: 70px;
+
+}
+.logo-one ul li a{
+    text-decoration: none;
+    font-size: 25px;
+} 
+
+.logo-one input{
+    padding: 15px;
+    border: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+.logo-text{
+    color:#DF6C19;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 4%;
+}
+
+#poultry{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-top:3%; 
+  padding-bottom:3%;
+}
+#poultry li a:hover{
+    color: #70E838;
+}
+.login{
+    margin-left: 85%;
+    margin-bottom: 23px;
+    position: absolute;
+    top: 5%;
+    height: 40px;
+    width: 150px;
+    background-color: #e5e5e5;
+}
+.secondSection{
+    display: flex;
+    background-color: #E5E5E5;
+    margin-bottom:5%;
+}
+.info{
+    margin-left: 12%;
+    font-family: sans;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.chic{
+    font-weight: 800;
+}
+.thirdSection{
+background-color: #E5E5E5;
+padding-top: 4%;
+}
+.iconOne{
+   position: absolute;
+   top: 114%;
+}
+.disease{
+    padding-right: 8%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #70E838;
+}
+.symptoms{
+    margin-left: 17%;
+    padding-right: 8%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #70E838;
+}
+.prevention{
+    margin-left: 18%;
+    padding-right: 8%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #70E838;
+}
+.guide{
+    margin-left:8%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.coccidiosis{
+    display: flex;
+}
+.cocci{
+    font-size: 25px;
+}
+.ruffled{
+    margin-left: 21%;
+    font-size: 25px;
+    
+}
+.loose{
+    margin-top: 4%;
+    left: 32%;
+    position: absolute;
+    font-size: 25px;
+}
+.weight{
+    margin-top: 6.5%;
+    position: absolute;
+    right: 59.5%;
+    font-size: 25px;
+}
+.food{
+    margin-left: 23%;
+    font-size: 25px;
+}
+.starter{
+    position: absolute;
+    margin-left: 65.6%;
+    margin-top:4%;
+    font-size: 25px;
+}
+.one{
+    padding-right: 2%;
+    font-size: 25px;
+}
+.vaccine{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 66.5%;
+    font-size: 25px;
+}
+.newcastle{
+    display: flex;
+    padding-top: 7%;
+
+}
+.two{
+    padding-right: 2%;
+    font-size: 25px;
+}
+.bd{
+    font-size: 25px;
+    margin-left: 4%;
+}
+.new{
+    padding-right: 12%;
+    font-size: 25px;
+}
+.murky{
+    margin-top: 4%;
+    left: 31.5%;
+    position: absolute;
+    font-size: 25px;
+}
+.nasal{
+    margin-top: 6%;
+    position: absolute;
+    right: 57.2%;
+    font-size: 25px;
+}
+.practice{
+    padding-left: 20%;
+    font-size: 25px;
+}
+.flock{
+    margin-top: 4%;
+    left: 66.5%;
+    position: absolute;
+    font-size: 25px;
+}
+.marek{
+    padding-top: 5%;
+    display: flex;
+    font-size: 25px;
+}
+.three{
+    padding-right: 2%;
+}
+.mareks{
+    padding-right: 13%;
+    
+}
+.partial{
+    margin-left: 5%;
+}
+.pupil{
+    margin-top: 4%;
+    left: 32%;
+    position: absolute;
+    font-size: 25px;
+}
+.tumors{
+    margin-top: 6%;
+    position: absolute;
+    right: 52%;
+    font-size: 25px;
+}
+.vaccinated{
+    padding-left: 24%;
+    font-size: 25px;
+}
+.fowl{
+    padding-top: 5%;
+    display: flex;
+    padding-bottom: 4%;
+    font-size: 25px;
+}
+.pox{
+    padding-right: 13%;
+    font-size: 25px;
+}
+.areas{
+    padding-left: 10%;
+}
+.eye{
+    margin-top: 4%;
+    left: 32.5%;
+    position: absolute;
+}
+.vaccinate{
+    padding-left: 16%;   
+}
+
+.some{
+    margin-top: 4%;
+    font-size: 20px;
+    font-family:serif;
+    font-weight: bolder;
+    background-color: #DF6C19;
+    margin-left: 28%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 4%;
+}
+.coci{
+    font-size: 23px;
+    font-weight: 700;
+}
+.cocc{
+    display: flex;
+}
+.colOne{
+    margin-top: 4%;
+    margin-left: 27%;
+    font-size: 23px;
+    border:1px solid black ; 
+    border-radius: 20px 20px 20px 20px;
+    background-color: #70E838;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.newc{
+    display: flex;
+}
+.mark{
+    display: flex;
+}
+.newcas{
+    font-size: 23px;
+    font-weight: 700;  
+}
+.colTwo{
+    margin-top: 4%;
+    margin-left: 28%;
+    font-size: 23px; 
+    border:1px solid black ; 
+    border-radius: 20px 20px 20px 20px;
+    background-color: #70E838; 
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.marks{
+    font-size: 23px;
+    font-weight: 700;
+}
+.colThree{
+    margin-top: 4%;
+    margin-left: 29%;
+    font-size: 23px; 
+    border:1px solid black ; 
+    border-radius: 20px 20px 20px 20px;
+    background-color: #70E838;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.firstPic{
+    margin-left: 15%;
+}
+.secondPic{
+    margin-left: 15%; 
+}
+.thirdPic{
+    margin-left: 15%;
+}
+.fourthSection{
+    background-color: #E5E5E5;
+}
+#footer{
+    text-align: center;
+    background-image:url(chicken.images/signup-removebg-preview\ \(copy\).png);
+}
+.offer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    padding: 18px 20px;
+    background-color: #DF6C19;
+    border: transparent;
+    font-size: 20px; 
+} 
+button:hover{
+    background-color:white;
+    color: #DF6C19;
+    border: solid;
+    border-color: #92E06A;
+    cursor:pointer;
+}
+#footer{
+    text-align: center;
+    background-image:url(./images/signup-removebg-preview.png
+    );
+    color:#DF6C19;
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    background-color: #92E06A;
+}
+#footer .container{
+    margin-top: 100px;
+}
+.container input {
+    padding: 20px ;
+    margin:0 auto;
+}
+#close{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+}
+#close .info img{
+    height: 6vh;
+    width: 6vh;
+}
+#close .info{
+    display: flex;
+    flex-direction:column;
+}
+.close-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#c4c4c4;
+}
+@media only screen and (max-width:500px){
+   #support{
+       flex-direction: column;
+   } 
+   .principles{
+       flex-direction: column;
+   }
+}
+    
+
+
+
